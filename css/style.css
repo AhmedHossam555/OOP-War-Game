@@ -129,6 +129,7 @@ body {
   display: none;
 }
 
+/* Responsive Design */
 @media (max-width: 901px) {
   .container {
     display: flex;
