@@ -1,5 +1,4 @@
-"# OOP-War-Game" 
-# ⚔️ War Game  
+# ⚔️OOP War Game  
 
 The **War Game** is a simple **two-player battle game** built with **HTML, CSS, and JavaScript**.  
 It features a countdown start screen, interactive buttons, health bars, and sound effects to create an engaging **player-vs-player** experience.  
