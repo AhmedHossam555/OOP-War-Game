@@ -90,7 +90,7 @@ Person.prototype.makeHealth = function() {
   }
 }
 
-// Create two players: Habib and Boyka
+// Create two players (two objects): Habib and Boyka
 let habib = new Person("Habib", 100, 10);
 let boyka = new Person("Boyka", 100, 10);
 
