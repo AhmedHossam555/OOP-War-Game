@@ -51,6 +51,7 @@ function Person(name, health, attackPower) {
   this.ui = new UiElement(name);
   this.attackAudio = new Audio("../sounds/bass-clarinet-attack-4-41962.mp3"); // Attack sound
   this.healthAudio = new Audio("../sounds/one_beep-99630.mp3"); // Health sound
+  
 }
 
 // Attack method: reduces opponent's health and updates UI
