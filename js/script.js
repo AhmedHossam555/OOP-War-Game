@@ -51,7 +51,7 @@ function Person(name, health, attackPower) {
   this.ui = new UiElement(name);
   this.attackAudio = new Audio("../sounds/bass-clarinet-attack-4-41962.mp3"); // Attack sound
   this.healthAudio = new Audio("../sounds/one_beep-99630.mp3"); // Health sound
-  
+
 }
 
 // Attack method: reduces opponent's health and updates UI
@@ -64,6 +64,7 @@ Person.prototype.attack = function(opponent) {
     opponent.ui.healthBtn.remove(); // Remove health button if dead
     opponent.ui.died.innerHTML = `${opponent.name} has died!`; // Show death message
   }
+  
   opponent.ui.level.innerHTML = `${opponent.health}%`; // Update health text
   opponent.ui.progress.style.width = `${opponent.health}%`; // Update health bar
 }
