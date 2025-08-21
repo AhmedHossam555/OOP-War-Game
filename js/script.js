@@ -5,7 +5,7 @@ function StartGame(){
   this.counterDom = document.querySelector(".game-counter"); // Countdown display
 }
 
-// Removes the game start screen
+// Removes the game start screen 
 StartGame.prototype.start = function() {
   this.gameDom.remove();
 }
