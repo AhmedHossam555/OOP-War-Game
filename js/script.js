@@ -24,6 +24,7 @@ StartGame.prototype.counter = function(){
       document.querySelector(".layer").remove(); // Remove overlay layer
     }
   }, 1000);
+  
 }
 
 // Instantiate StartGame and set up start button event
