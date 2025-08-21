@@ -10,12 +10,14 @@ body {
   font-family: cursive;
 }
 
+/* container */
 .container {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
+/* Person style */
 .person {
   padding: 24px;
   text-align: center;
