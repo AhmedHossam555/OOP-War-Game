@@ -64,7 +64,7 @@ Person.prototype.attack = function(opponent) {
     opponent.ui.healthBtn.remove(); // Remove health button if dead
     opponent.ui.died.innerHTML = `${opponent.name} has died!`; // Show death message
   }
-  
+
   opponent.ui.level.innerHTML = `${opponent.health}%`; // Update health text
   opponent.ui.progress.style.width = `${opponent.health}%`; // Update health bar
 }
@@ -76,7 +76,7 @@ Person.prototype.status = function() {
   console.log(`attackPower: ${this.attackPower}`);
 }
 
-// Increases health by 10 (max 100) and updates UI
+// Increases health by 10 (max 100) and updates UI (MakeHealth function)
 Person.prototype.makeHealth = function() {
   if(this.health < 100) {
     this.health += 10;
