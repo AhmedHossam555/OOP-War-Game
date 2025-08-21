@@ -10,7 +10,7 @@ body {
   font-family: cursive;
 }
 
-/* container */
+/* container style */
 .container {
   display: flex;
   justify-content: space-around;
